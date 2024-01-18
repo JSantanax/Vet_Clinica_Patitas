@@ -13,7 +13,7 @@ namespace Data
             string resp = "";
             string command = "INSERT INTO Veterinario_Tbl(Código, Nombres, Nacimiento, Género, Cédula, Teléfono," +
                 "Celular, Especialidad, Correo, Dirección) VALUES ('" + veterinario.Codigo + "','" + veterinario.Nombres + "'," +
-                "'" + veterinario.Nacimiento.ToString("yyyy-MM-dd") + "','" + veterinario.Genero + "','" + veterinario.Cedula + "'," +
+                "'" + veterinario.Nacimiento.ToString() + "','" + veterinario.Genero + "','" + veterinario.Cedula + "'," +
                 "'" + veterinario.Telefono + "','" + veterinario.Celular + "','" + veterinario.Especialidad + "','" + veterinario.Mail + "'," +
                 "'" + veterinario.Direccion + "')";
             try

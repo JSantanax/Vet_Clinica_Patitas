@@ -80,7 +80,7 @@ namespace Controller
 
             ind = dgvVeterinarios.Rows.Add();
             dgvVeterinarios.Rows[ind].Cells["colIndice"].Value = vet.IdVeterinario;
-            dgvVeterinarios.Rows[ind].Cells["colCodigo"].Value = "F";
+            dgvVeterinarios.Rows[ind].Cells["colCodigo"].Value = vet.Codigo;
             dgvVeterinarios.Rows[ind].Cells["colVeterinario"].Value = vet.Nombres;
             dgvVeterinarios.Rows[ind].Cells["colGenero"].Value = vet.Genero;
             dgvVeterinarios.Rows[ind].Cells["colEspecialidad"].Value = vet.Especialidad;

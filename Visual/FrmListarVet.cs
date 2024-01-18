@@ -101,5 +101,15 @@ namespace Visual
             cbxEspecialidad.SelectedIndex = -1;
             cbxSexo.SelectedIndex = -1;
         }
+
+        private void cbxEspecialidad_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblEspecialidad_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
